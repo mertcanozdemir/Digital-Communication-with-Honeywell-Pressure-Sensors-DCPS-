@@ -34,16 +34,16 @@
 /******************************************************************************
  * Module Preprocessor Macros
  *******************************************************************************/
-#define NUMBER_OF_CALCULATION 	10 										/*<! To get average pressure value from the communication. */
+#define NUMBER_OF_CALCULATION 	10 							/*<! To get average pressure value from the communication. */
 #define FLOAT_TO_INT(x) 		((x)>=0?(int)((x)+0.5):(int)((x)-0.5))
-#define FREERTOS				1 										/*<! if FreeRTOS included, you shall change the value to 1. In other ways, you shall change the value to 0. */
+#define FREERTOS				1 					/*<! if FreeRTOS included, you shall change the value to 1. In other ways, you shall change the value to 0. */
 
-#define MAX_ADC_VALUE			14745.0f								/*<! change maximum ADC value from the datasheet (%90 of its value) */
-#define MAX_PRESSURE_VALUE		60.0f  									/*<! change maximum pressure value from the datasheet */
-#define	MIN_ADC_VALUE			1570.0f									/*<! change minimum ADC value from the datasheet (%10 of its value) */
-#define MIN_PRESSURE_VALUE		0.0f									/*<! change minimum pressure value from the datasheet */
+#define MAX_ADC_VALUE			14745.0f					/*<! change maximum ADC value from the datasheet (%90 of its value) */
+#define MAX_PRESSURE_VALUE		60.0f  						/*<! change maximum pressure value from the datasheet */
+#define	MIN_ADC_VALUE			1570.0f						/*<! change minimum ADC value from the datasheet (%10 of its value) */
+#define MIN_PRESSURE_VALUE		0.0f						/*<! change minimum pressure value from the datasheet */
 
-#define DATA_LIMIT_COUNT		3 										/*<! ADC readings cycle can be limited here */
+#define DATA_LIMIT_COUNT		3 						/*<! ADC readings cycle can be limited here */
 /** @defgroup I2C_Memory_Address_Size I2C Memory Address Size
  * @{
  */
